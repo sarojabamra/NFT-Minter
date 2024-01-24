@@ -1,0 +1,72 @@
+.box {
+  width: 468px;
+  height: 667px;
+  flex-shrink: 0;
+  border-radius: 75px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+}
+
+.box-btn {
+  transform: translateY(-0.8rem);
+}
+
+.mint {
+  display: flex;
+  justify-content: center;
+  margin-top: 4.5rem;
+}
+
+#status {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+
+  font-weight: 300;
+  width: 25rem;
+}
+
+.box-content {
+  padding: 2rem 2.5rem;
+  width: 24rem;
+}
+
+.status-div {
+  width: 22rem;
+}
+
+input {
+  width: 22rem;
+  height: 2.5rem;
+  margin-top: -1rem;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+}
+
+.instructions {
+  margin-top: -1rem;
+}
+
+.box-content h1 {
+  margin-top: 1rem;
+}
+
+input:focus {
+  border-color: #fff !important;
+}
+
+.box-content button {
+  margin-top: 1.2rem;
+  width: 24rem;
+}
+
+input[type="text"] {
+  padding: 0rem 0.8rem;
+  font-family: "Cabin", sans-serif;
+}

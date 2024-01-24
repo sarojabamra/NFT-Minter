@@ -1,0 +1,67 @@
+.logo-text {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.ethereum {
+  height: 2.2rem;
+  margin-top: 1.25rem;
+  padding: 0px 10px;
+}
+
+.nav {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-top: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  gap: 3.5rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -1rem;
+}
+
+.btn {
+  margin-top: 0.2rem;
+}
+
+.outline-btn {
+  background: none;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid #fff;
+  font-size: 1.1rem;
+  font-family: "Cabin", sans-serif;
+}
+
+.outline-btn:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #07073d;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 960px) {
+  .logo {
+    display: none;
+  }
+}
