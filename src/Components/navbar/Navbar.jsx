@@ -68,12 +68,12 @@ const Navbar = () => {
           <p>Mint</p>
         </Link>
         <Link to="/about">
-          <p>About</p>
+          <p className="aabout">About</p>
         </Link>
         <div className="btn">
           <button
             id="walletButton"
-            className="outline-btn"
+            className="outline-btn nav-btn"
             onClick={connectWalletPressed}
           >
             {walletAddress.length > 0 ? (

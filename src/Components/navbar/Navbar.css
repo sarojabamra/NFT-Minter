@@ -65,3 +65,20 @@ a {
     display: none;
   }
 }
+
+@media only screen and (max-width: 435px) {
+  .logo {
+    display: none;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+  .nav {
+    margin-left: -1rem;
+  }
+
+  .content {
+    margin-left: 2rem;
+  }
+}

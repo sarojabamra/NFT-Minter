@@ -20,3 +20,11 @@
   opacity: 80%;
   margin-top: 0.2rem !important;
 }
+
+@media only screen and (max-width: 435px) {
+  .about {
+    margin-left: -3rem;
+    width: 20rem;
+    transform: scale(80%);
+  }
+}
